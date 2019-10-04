@@ -7,5 +7,6 @@ public class MytestClass {
 		System.out.println("github server update003");
 		System.out.println("github 服务器 update004");
 		System.out.println("hello ,github server005!");
+		System.out.println("hello ,local server b 005!");
 	}
 }
