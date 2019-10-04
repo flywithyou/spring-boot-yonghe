@@ -1,0 +1,30 @@
+#server
+server:
+  port: 80
+  tomcat:
+    max-threads: 1000
+    min-spare-threads: 30
+  servlet:
+    context-path: /
+#spring datasource
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql:///yonghedb?serverTimezone=GMT%2B8&characterEncoding=UTF8
+    username: root
+    password: root
+  
+#mybatis
+mybatis:
+  configuration:
+    default-statement-timeout: 30
+    map-underscore-to-camel-case: true
+  mapper-locations:
+  - classpath:/mapper/*.xml
+#log
+logging:
+  level:
+    com.cy: debug
