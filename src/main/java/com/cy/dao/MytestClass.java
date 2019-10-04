@@ -5,5 +5,6 @@ public class MytestClass {
 		System.out.println("hello ,github server!");
 		System.out.println("hello ,github server002!");
 		System.out.println("github server update003");
+		System.out.println("github 服务器 update004");
 	}
 }
